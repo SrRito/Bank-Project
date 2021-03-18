@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -50,17 +51,15 @@ namespace bank_project
                     lblCaja5.Visible = true;
                     break;
                 default:
+                    MessageBox.Show("Asegurate de elegir una caja primero");
+                    Close();
                     break;
             }
+            timer.Enabled = true;
             caja1.addMov(cliente.getMovimientos());
+
         }
 
-        private void testBtn_Click(object sender, EventArgs e)
-        {
-            random.Text = "numero random:";
-            random.Text = random.Text + cliente.getMovimientos();
-            timer.Enabled = true;
-        }
 
         private void timer_Tick(object sender, EventArgs e)
         {

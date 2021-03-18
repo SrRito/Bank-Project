@@ -31,8 +31,6 @@ namespace bank_project
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Banco));
-            this.random = new System.Windows.Forms.Label();
-            this.testBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -49,25 +47,6 @@ namespace bank_project
             this.lblConteo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // random
-            // 
-            this.random.AutoSize = true;
-            this.random.Location = new System.Drawing.Point(12, 292);
-            this.random.Name = "random";
-            this.random.Size = new System.Drawing.Size(86, 13);
-            this.random.TabIndex = 0;
-            this.random.Text = "numero random: ";
-            // 
-            // testBtn
-            // 
-            this.testBtn.Location = new System.Drawing.Point(12, 308);
-            this.testBtn.Name = "testBtn";
-            this.testBtn.Size = new System.Drawing.Size(75, 23);
-            this.testBtn.TabIndex = 1;
-            this.testBtn.Text = "prueba";
-            this.testBtn.UseVisualStyleBackColor = true;
-            this.testBtn.Click += new System.EventHandler(this.testBtn_Click);
             // 
             // pictureBox1
             // 
@@ -227,8 +206,6 @@ namespace bank_project
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.testBtn);
-            this.Controls.Add(this.random);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Banco";
             this.ShowIcon = false;
@@ -240,9 +217,6 @@ namespace bank_project
         }
 
         #endregion
-
-        private System.Windows.Forms.Label random;
-        private System.Windows.Forms.Button testBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
