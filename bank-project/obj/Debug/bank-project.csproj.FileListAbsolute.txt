@@ -1,0 +1,10 @@
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\bin\Debug\bank-project.exe.config
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\bin\Debug\bank-project.exe
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\bin\Debug\bank-project.pdb
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\obj\Debug\bank-project.csprojAssemblyReference.cache
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\obj\Debug\bank_project.Form1.resources
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\obj\Debug\bank_project.Properties.Resources.resources
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\obj\Debug\bank-project.csproj.GenerateResource.cache
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\obj\Debug\bank-project.csproj.CoreCompileInputs.cache
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\obj\Debug\bank-project.exe
+C:\Users\ben_9\source\repos\bank-project\bank-project\bank-project\obj\Debug\bank-project.pdb
