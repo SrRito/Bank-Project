@@ -26,6 +26,10 @@ namespace bank_project
         {
             express = true;
         }
+        public void addMov(int mov)
+        {
+            movimientos = movimientos + mov;
+        }
 
         public string numeroCaja()
         {

@@ -15,21 +15,18 @@ namespace bank_project
         private int conteo;
         Clientes cliente = new Clientes();
         cajeroExpress express = new cajeroExpress();
+        cCajero caja1 = new cCajero(1);
+        cCajero caja2 = new cCajero(2);
+        cCajero caja3 = new cCajero(3);
+        cCajero caja4 = new cCajero(4);
+        cCajero caja5 = new cCajero(5);
         int x=0;
         public Banco()
         {
             InitializeComponent();
-            cCajero caja1 = new cCajero(1);
-            cCajero caja2 = new cCajero(2);
-            cCajero caja3 = new cCajero(3);
-            cCajero caja4 = new cCajero(4);
-            cCajero caja5 = new cCajero(5);
+            
             express.ShowDialog();
             x = express.getNumCaja();
-            if (x != 0)
-            {
-                express.Close();
-            }
             switch (x)
             {
                 case 1:
@@ -55,6 +52,7 @@ namespace bank_project
                 default:
                     break;
             }
+            caja1.addMov(cliente.getMovimientos());
         }
 
         private void testBtn_Click(object sender, EventArgs e)
